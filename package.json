@@ -1,0 +1,13 @@
+{
+  "name": "base-converter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "abd",
+  "license": "ISC"
+}
