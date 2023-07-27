@@ -2,9 +2,10 @@
   "name": "base-converter",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/main.js",
+  "main": "dist/base.js",
   "type": "module",
   "scripts": {
+    "build": "tsc --project tsconfig.json --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
