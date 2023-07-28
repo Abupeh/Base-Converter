@@ -71,20 +71,3 @@ function generateWarning(text: string, customData: object = {}) {
 	);
 	console.error(`\x1b[31mWarn [ ${data} ]: ${text}\x1b[0m`);
 }
-const a = new Base(12);
-console.log(a.readTo("25338"));
-console.log(new Base(16).readTo("FFFFFF"));
-
-///
-
-const data = 1234567890;
-console.log("\n\n\n\n\n\n", data);
-const base64data = new Base(64).readFrom(data);
-console.log(base64data);
-
-const base32from = new Base(64).conversion(base64data, new Base(32));
-console.log(base32from);
-
-console.log(
-	new Base(64).readTo(new Base(32).conversion(base32from, new Base(64)))
-);
